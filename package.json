@@ -1,7 +1,7 @@
 {
-  "name": "react-lazy-list",
+  "name": "@vinayakakv/react-lazy-list",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -26,5 +26,17 @@
   },
   "lint-staged": {
     "*.{js,css,md,ts,tsx,json}": "prettier --write"
-  }
+  },
+  "description": "A wrapper around react-infinite-scroll-component for fixed-size lists",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakakv/react-lazy-list.git"
+  },
+  "author": "Vinayaka K V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayakakv/react-lazy-list/issues"
+  },
+  "homepage": "https://github.com/vinayakakv/react-lazy-list#readme"
 }
