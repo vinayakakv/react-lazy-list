@@ -14,9 +14,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "MyLib",
+      name: "react-lazy-list",
       formats: ["es", "umd"],
-      fileName: format => `my-lib.${format}.js`,
+      fileName: format => `react-lazy-list.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],

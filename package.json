@@ -4,6 +4,15 @@
   "files": [
     "dist/"
   ],
+  "main": "./dist/react-lazy-list.js",
+  "type": "module",
+  "module": "./dist/react-lazy-list.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-lazy-list.es.js",
+      "require": "./dist/react-lazy-list.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -30,7 +39,6 @@
     "*.{js,css,md,ts,tsx,json}": "prettier --write"
   },
   "description": "A wrapper around react-infinite-scroll-component for fixed-size lists",
-  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vinayakakv/react-lazy-list.git"
