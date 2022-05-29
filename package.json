@@ -1,6 +1,5 @@
 {
   "name": "@vinayakakv/react-lazy-list",
-  "private": true,
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
